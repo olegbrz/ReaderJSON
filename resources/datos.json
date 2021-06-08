@@ -1,0 +1,1581 @@
+{
+    "medicines": [
+        { "name": "bretarisName" },
+        { "name": "ekliraName" },
+        { "name": "brimicaName" },
+        { "name": "duaklirName" },
+        { "name": "enurdevName" },
+        { "name": "seebriName" },
+        { "name": "tovanorName" },
+        { "name": "ulunarName" },
+        { "name": "ultibroName" },
+        { "name": "xoternaName" },
+        { "name": "hirobrizName" },
+        { "name": "ponbrezName" },
+        { "name": "spirivaName" },
+        { "name": "striverdiName" },
+        { "name": "incruseName" },
+        { "name": "anoroName" },
+        { "name": "relvarName" },
+        { "name": "pulmicortName" },
+        { "name": "symbicortName" },
+        { "name": "symbicortForteName" },
+        { "name": "rilastName" },
+        { "name": "rilasFortetName" },
+        { "name": "oxistName" },
+        { "name": "flixotideName" },
+        { "name": "flusonalName" },
+        { "name": "inalacorName" },
+        { "name": "trialonaName" },
+        { "name": "anasmaName" },
+        { "name": "brisairName" },
+        { "name": "inaladuoName" },
+        { "name": "plusventName" },
+        { "name": "seretideName" },
+        { "name": "inaspirName" },
+        { "name": "sereventName" },
+        { "name": "formodualName" },
+        { "name": "fosterName" },
+        { "name": "broncoralNeoName" },
+        { "name": "foradilNeoName" },
+        { "name": "beglanName" },
+        { "name": "betamicanName" },
+        { "name": "duorespName" },
+        { "name": "bufomixName" },
+        { "name": "broncoralName" },
+        { "name": "foradilName" },
+        { "name": "nedlikName" },
+        { "name": "formatrisName" },
+        { "name": "asmanexTwisthalerName" },
+        { "name": "ventolinName" }
+      ],
+    "activeIngredients": [
+        { "name": "aclidiniumName" },
+        { "name": "formoterolName" },
+        { "name": "glycopyrroniumName" },
+        { "name": "indacaterolName" },
+        { "name": "tiotropiumName" },
+        { "name": "olodaterolName" },
+        { "name": "umeclidiniumName" },
+        { "name": "vilanterolName" },
+        { "name": "fluticasoneName" },
+        { "name": "budesonideName" },
+        { "name": "salmeterolName" },
+        { "name": "aclidinium_formoterolName" },
+        { "name": "indacaterol_glicopyrroniumName" },
+        { "name": "budesonide_formoterolName" },
+        { "name": "salmeterol_fluticasoneName" },
+        { "name": "beclometasone_formoterolName" },
+        { "name": "umeclidinium_vilanterolName" },
+        { "name": "fluticasone_vilanterolName" },
+        { "name": "mometasonefuroateName" },
+        { "name": "salbutamolName" }
+      ],
+    "physiotherapies": [
+        {
+          "name": "physioRecomName",
+          "image": "ejerciciodepiecomocaminar"
+        },
+        {
+          "name": "ejercicioTumbadoName",
+          "image": "ejerciciotumbadomanosabdomen"
+        },
+        {
+          "name": "ejercicioSentadoName",
+          "image": "ejerciciosentadoespaldarecta"
+        },
+        {
+          "name": "ejercicioDePieName",
+          "image": "ejerciciodepieapoyadosilla"
+        },
+        {
+          "name": "ejercicioFlexionBrazosName",
+          "image": "ejerciciobrazosflexion"
+        },
+        {
+          "name": "ejercicioAbduccionBrazosName",
+          "image": "ejerciciobrazosabducccion"
+        },
+        {
+          "name": "ejercicioPedalearPiernasName",
+          "image": "ejerciciopedalearpiernas"
+        },
+        {
+          "name": "ejercicioPedalearBrazosName",
+          "image": "ejerciciopedalearbrazos"
+        },
+        {
+          "name": "ejercicioComoCaminarName",
+          "image": "ejerciciodepiecomocaminar"
+        },
+        {
+          "name": "ejercicioProgramaBiciletaName",
+          "image": "ejerciciobicicleta"
+        }
+      ],
+    "inhalers": [
+        {
+          "name": "accuhalerName",
+          "image": "accuhaler1"
+        },
+        {
+          "name": "aerolizerName",
+          "image": "aerolizer1"
+        },
+        {
+          "name": "breezhalerName",
+          "image": "breezhaler1"
+        },
+        {
+          "name": "pressurecartridgeName",
+          "image": "pressurecartridge1"
+        },
+        {
+          "name": "chamberpressurecartridgeName",
+          "image": "chamberpressurecartridge1"
+        },
+        {
+          "name": "easyhalerName",
+          "image": "easyhaler1"
+        },
+        {
+          "name": "genuairName",
+          "image": "genuair1"
+        },
+        {
+          "name": "handihalerName",
+          "image": "handihaler1"
+        },
+        {
+          "name": "nexthalerName",
+          "image": "nexthaler1"
+        },
+        {
+          "name": "respimatName",
+          "image": "respimatinhaler"
+        },
+        {
+          "name": "turbuhalerName",
+          "image": "turbuhalerinhaler"
+        },
+        {
+          "name": "twisthalerName",
+          "image": "twisthalerinhaler"
+        },
+        {
+          "name": "elliptaName",
+          "image": "ellipta1"
+        },
+        {
+          "name": "spiromaxName",
+          "image": "spiromax1"
+        },
+        {
+          "name": "novolizerName",
+          "image": "novolizer1"
+        }
+      ],
+    "posologies": [
+        { "description": "dosis_1_24h" },
+        { "description": "dosis_1_12h" },
+        { "description": "dosis_1_08h" },
+        { "description": "dosis_1_06h" },
+        { "description": "dosis_2_24h" },
+        { "description": "dosis_2_12h" },
+        { "description": "dosis_2_08h" },
+        { "description": "dosis_2_06h" }
+      ],
+    "medicinePresentations": [
+        {
+          "medicineRef": "bretarisName",
+          "activeIngRef": "aclidiniumName",
+          "inhalerRef": ["genuairName"],
+          "dose": ["322.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "ekliraName",
+          "activeIngRef": "aclidiniumName",
+          "inhalerRef": ["genuairName"],
+          "dose": ["322.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "brimicaName",
+          "activeIngRef": "aclidinium_formoterolName",
+          "inhalerRef": ["genuairName"],
+          "dose": ["340.0, 12.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "duaklirName",
+          "activeIngRef": "aclidinium_formoterolName",
+          "inhalerRef": ["genuairName"],
+          "dose": ["340.0, 12.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "enurdevName",
+          "activeIngRef": "glycopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 44.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "seebriName",
+          "activeIngRef": "glycopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 44.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "tovanorName",
+          "activeIngRef": "glycopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 44.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "ulunarName",
+          "activeIngRef": "indacaterol_glicopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 85.0, 43.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "ultibroName",
+          "activeIngRef": "indacaterol_glicopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 85.0, 43.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "xoternaName",
+          "activeIngRef": "indacaterol_glicopyrroniumName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [" 85.0, 43.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "hirobrizName",
+          "activeIngRef": "indacaterolName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": [ "150.0,  0.0", "300.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "ponbrezName",
+          "activeIngRef": "indacaterolName",
+          "inhalerRef": ["breezhalerName"],
+          "dose": ["150.0,  0.0", "300.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "spirivaName",
+          "activeIngRef": "tiotropiumName",
+          "inhalerRef": ["handihalerName"],
+          "dose": [" 18.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "spirivaName",
+          "activeIngRef": "tiotropiumName",
+          "inhalerRef": ["respimatName"],
+          "dose": ["  2.5,  0.0"],
+          "posologyRef": ["dosis_2_24h"]
+        },
+        {
+          "medicineRef": "striverdiName",
+          "activeIngRef": "olodaterolName",
+          "inhalerRef": ["respimatName"],
+          "dose": ["  2.5,  0.0"],
+          "posologyRef": ["dosis_2_24h"]
+        },
+        {
+          "medicineRef": "incruseName",
+          "activeIngRef": "umeclidiniumName",
+          "inhalerRef": ["elliptaName"],
+          "dose": [" 55.0,  0.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "anoroName",
+          "activeIngRef": "umeclidinium_vilanterolName",
+          "inhalerRef": ["elliptaName"],
+          "dose": [" 55.0, 22.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "relvarName",
+          "activeIngRef": "fluticasone_vilanterolName",
+          "inhalerRef": ["elliptaName"],
+          "dose": [" 92.0, 22.0"],
+          "posologyRef": ["dosis_1_24h"]
+        },
+        {
+          "medicineRef": "pulmicortName",
+          "activeIngRef": "budesonideName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["400.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "symbicortName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["160.0,  4.5"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "symbicortForteName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["320.0,  9.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "rilastName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["160.0,  4.5"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "rilasFortetName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["320.0,  9.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "oxistName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["  4.5,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "oxistName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["turbuhalerName"],
+          "dose": ["  9.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "flixotideName",
+          "activeIngRef": "fluticasoneName",
+          "inhalerRef": [
+            "accuhalerName",
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": ["500.0,  0.0", "100.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "flusonalName",
+          "activeIngRef": "fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": ["500.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "inalacorName",
+          "activeIngRef": "fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": ["500.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "trialonaName",
+          "activeIngRef": "fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": ["500.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "anasmaName",
+          "activeIngRef": "salmeterol_fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,500.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "brisairName",
+          "activeIngRef": "salmeterol_fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,500.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "inaladuoName",
+          "activeIngRef": "salmeterol_fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,500.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "plusventName",
+          "activeIngRef": "salmeterol_fluticasoneName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,500.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "seretideName",
+          "activeIngRef": "salmeterol_fluticasoneName",
+          "inhalerRef": [
+            "accuhalerName",
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": [" 50.0,500.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "beglanName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "betamicanName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "inaspirName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "sereventName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["accuhalerName"],
+          "dose": [" 50.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "formodualName",
+          "activeIngRef": "beclometasone_formoterolName",
+          "inhalerRef": [
+            "nexthalerName",
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": ["100.0,  6.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "fosterName",
+          "activeIngRef": "beclometasone_formoterolName",
+          "inhalerRef": [
+            "nexthalerName",
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": ["100.0,  6.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "broncoralNeoName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": [
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "foradilNeoName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": [
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "beglanName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": [
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": [" 25.0,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "betamicanName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": [
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": [" 25.0,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "inaspirName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["pressurecartridgeName"],
+          "dose": [" 25.0,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "sereventName",
+          "activeIngRef": "salmeterolName",
+          "inhalerRef": ["pressurecartridgeName"],
+          "dose": [" 25.0,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "duorespName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["spiromaxName"],
+          "dose": ["320.0,  9.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "duorespName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["spiromaxName"],
+          "dose": ["160.0,  4.5"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "bufomixName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["easyhalerName"],
+          "dose": ["320.0,  9.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "bufomixName",
+          "activeIngRef": "budesonide_formoterolName",
+          "inhalerRef": ["easyhalerName"],
+          "dose": ["160.0,  4.5"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "broncoralName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["aerolizerName"],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "foradilName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["aerolizerName"],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "nedlikName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["aerolizerName"],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "formatrisName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["novolizerName"],
+          "dose": [" 12.0,  0.0"],
+          "posologyRef": ["dosis_1_12h"]
+        },
+        {
+          "medicineRef": "formatrisName",
+          "activeIngRef": "formoterolName",
+          "inhalerRef": ["novolizerName"],
+          "dose": ["  6.0,  0.0"],
+          "posologyRef": ["dosis_2_12h"]
+        },
+        {
+          "medicineRef": "asmanexTwisthalerName",
+          "activeIngRef": "mometasonefuroateName",
+          "inhalerRef": ["twisthalerName"],
+          "dose": ["400.0,  0.0", "200.0,  0.0"],
+          "posologyRef": [
+            "dosis_1_12h",
+            "dosis_1_24h"
+          ]
+        },
+        {
+          "medicineRef": "ventolinName",
+          "activeIngRef": "salbutamolName",
+          "inhalerRef": [
+            "pressurecartridgeName",
+            "chamberpressurecartridgeName"
+          ],
+          "dose": ["100.0,  0.0"],
+          "posologyRef": [
+            "dosis_1_24h",
+            "dosis_2_24h",
+            "dosis_1_12h",
+            "dosis_2_12h",
+            "dosis_1_08h",
+            "dosis_2_08h",
+            "dosis_1_06h",
+            "dosis_2_06h"
+          ]
+        }
+      ],
+    "rescueMedicinePresentations": [
+        {
+          "medicineRef": "ventolinName",
+          "activeIngRef": "salbutamolName",
+          "inhalerRef": ["pressurecartridgeName"],
+          "dose": ["100.0,  0.0"]
+        },
+        {
+          "medicineRef": "genericSalbutamolName",
+          "activeIngRef": "salbutamolName",
+          "inhalerRef": ["pressurecartridgeName"],
+          "dose": ["100.0,  0.0"]
+        }
+      ],
+    "userManualPhysioSteps": [
+        {
+          "stepTitle": "titulo.1.physiorecom",
+          "stepImage": "ejerciciodepiecomocaminar",
+          "stepText": "texto.1.physiorecom",
+          "physioRef": "physioRecomName"
+        },
+        {
+          "stepTitle": "titulo.2.physiorecom",
+          "stepImage": "ejerciciosentadoespaldarecta",
+          "stepText": "texto.2.physiorecom",
+          "physioRef": "physioRecomName"
+        },
+        {
+          "stepTitle": "titulo.3.physiorecom",
+          "stepImage": "ejerciciopedalearpiernas",
+          "stepText": "texto.3.physiorecom",
+          "physioRef": "physioRecomName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioTumbado",
+          "stepImage": "ejerciciotumbadomanosabdomen",
+          "stepText": "texto.1.ejercicioTumbado",
+          "physioRef": "ejercicioTumbadoName"
+        },
+        {
+          "stepTitle": "titulo.2.ejercicioTumbado",
+          "stepImage": "ejerciciotumbadomanosabdomen",
+          "stepText": "texto.2.ejercicioTumbado",
+          "physioRef": "ejercicioTumbadoName"
+        },
+        {
+          "stepTitle": "titulo.3.ejercicioTumbado",
+          "stepImage": "ejerciciotumbadosmanoscostillas",
+          "stepText": "texto.3.ejercicioTumbado",
+          "physioRef": "ejercicioTumbadoName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioSentado",
+          "stepImage": "ejerciciosentadoespaldarecta",
+          "stepText": "texto.1.ejercicioSentado",
+          "physioRef": "ejercicioSentadoName"
+        },
+        {
+          "stepTitle": "titulo.2.ejercicioSentado",
+          "stepImage": "ejerciciosentadobrazosarribaabajo",
+          "stepText": "texto.2.ejercicioSentado",
+          "physioRef": "ejercicioSentadoName"
+        },
+        {
+          "stepTitle": "titulo.3.ejercicioSentado",
+          "stepImage": "ejerciciosentadoespaldarecta",
+          "stepText": "texto.3.ejercicioSentado",
+          "physioRef": "ejercicioSentadoName"
+        },
+        {
+          "stepTitle": "titulo.4.ejercicioSentado",
+          "stepImage": "ejerciciosentadotoser",
+          "stepText": "texto.4.ejercicioSentado",
+          "physioRef": "ejercicioSentadoName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioDePie",
+          "stepImage": "ejerciciodepieapoyadosilla",
+          "stepText": "texto.1.ejercicioDePie",
+          "physioRef": "ejercicioDePieName"
+        },
+        {
+          "stepTitle": "titulo.2.ejercicioDePie",
+          "stepImage": "ejerciciodepielevantarpierna",
+          "stepText": "texto.2.ejercicioDePie",
+          "physioRef": "ejercicioDePieName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioFlexionBrazos",
+          "stepImage": "ejerciciobrazosflexion",
+          "stepText": "texto.1.ejercicioFlexionBrazos",
+          "physioRef": "ejercicioFlexionBrazosName"
+        },
+        {
+          "stepTitle": "titulo.2.ejercicioFlexionBrazos",
+          "stepImage": "ejerciciobrazosflexion",
+          "stepText": "texto.2.ejercicioFlexionBrazos",
+          "physioRef": "ejercicioFlexionBrazosName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioAbduccionBrazos",
+          "stepImage": "ejerciciobrazosabducccion",
+          "stepText": "texto.1.ejercicioAbduccionBrazos",
+          "physioRef": "ejercicioAbduccionBrazosName"
+        },
+        {
+          "stepTitle": "titulo.2.ejercicioAbduccionBrazos",
+          "stepImage": "ejerciciobrazosabducccion",
+          "stepText": "texto.2.ejercicioAbduccionBrazos",
+          "physioRef": "ejercicioAbduccionBrazosName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioPedalearPiernas",
+          "stepImage": "ejerciciopedalearpiernas",
+          "stepText": "texto.1.ejercicioPedalearPiernas",
+          "physioRef": "ejercicioPedalearPiernasName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioPedalearBrazos",
+          "stepImage": "ejerciciopedalearbrazos",
+          "stepText": "texto.1.ejercicioPedalearBrazos",
+          "physioRef": "ejercicioPedalearBrazosName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioComoCaminar",
+          "stepImage": "ejerciciodepiecomocaminar",
+          "stepText": "texto.1.ejercicioComoCaminar",
+          "physioRef": "ejercicioComoCaminarName"
+        },
+        {
+          "stepTitle": "titulo.1.ejercicioProgramaBicileta",
+          "stepImage": "ejerciciobicicleta",
+          "stepText": "texto.1.ejercicioProgramaBicileta",
+          "physioRef": "ejercicioProgramaBiciletaName"
+        }
+      ],
+    "userManualSteps": [
+        {
+          "stepTitle": "titulo.1.genuair",
+          "stepImage": "genuair1",
+          "stepText": "texto.1.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.2.genuair",
+          "stepImage": "genuair2",
+          "stepText": "texto.2.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.3.genuair",
+          "stepImage": "genuair3",
+          "stepText": "texto.3.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.4.genuair",
+          "stepImage": "genuair4",
+          "stepText": "texto.4.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.5.genuair",
+          "stepImage": "genuair5",
+          "stepText": "texto.5.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.6.genuair",
+          "stepImage": "genuair6",
+          "stepText": "texto.6.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.7.genuair",
+          "stepImage": "genuair7",
+          "stepText": "texto.7.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.8.genuair",
+          "stepImage": "genuair8",
+          "stepText": "texto.8.genuair",
+          "inhalerRef": "genuairName"
+        },
+        {
+          "stepTitle": "titulo.1.respimat",
+          "stepImage": "respimatinhaler",
+          "stepText": "texto.1.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.2.respimat",
+          "stepImage": "respimat2",
+          "stepText": "texto.2.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.3.respimat",
+          "stepImage": "respimat3",
+          "stepText": "texto.3.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.4.respimat",
+          "stepImage": "respimat4",
+          "stepText": "texto.4.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.5.respimat",
+          "stepImage": "warning",
+          "stepText": "texto.5.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.6.respimat",
+          "stepImage": "respimat6_11",
+          "stepText": "texto.6.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.7.respimat",
+          "stepImage": "respimatopencap",
+          "stepText": "texto.7.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.8.respimat",
+          "stepImage": "respimatclosecap",
+          "stepText": "texto.8.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.9.respimat",
+          "stepImage": "calendario",
+          "stepText": "texto.9.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.10.respimat",
+          "stepImage": "respimatinhaler",
+          "stepText": "texto.10.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.11.respimat",
+          "stepImage": "respimat6_11",
+          "stepText": "texto.11.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.12.respimat",
+          "stepImage": "respimatopencap",
+          "stepText": "texto.12.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.13.respimat",
+          "stepImage": "exhaleair",
+          "stepText": "texto.13.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.14.respimat",
+          "stepImage": "respimatinhale",
+          "stepText": "texto.14.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.15.respimat",
+          "stepImage": "holdbreath",
+          "stepText": "texto.15.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.16.respimat",
+          "stepImage": "warning",
+          "stepText": "texto.16.respimat",
+          "inhalerRef": "respimatName"
+        },
+        {
+          "stepTitle": "titulo.1.turbuhaler",
+          "stepImage": "turbuhalerremovecap",
+          "stepText": "texto.1.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.2.turbuhaler",
+          "stepImage": "turbuhalertwistbase",
+          "stepText": "texto.2.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.3.turbuhaler",
+          "stepImage": "exhaleair",
+          "stepText": "texto.3.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.4.turbuhaler",
+          "stepImage": "turbuhalerinhale",
+          "stepText": "texto.4.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.5.turbuhaler",
+          "stepImage": "holdbreath",
+          "stepText": "texto.5.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.6.turbuhaler",
+          "stepImage": "turbuhalerremovecap",
+          "stepText": "texto.6.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.7.turbuhaler",
+          "stepImage": "rinsemouth",
+          "stepText": "texto.7.turbuhaler",
+          "inhalerRef": "turbuhalerName"
+        },
+        {
+          "stepTitle": "titulo.1.breezhaler",
+          "stepImage": "breezhaler1",
+          "stepText": "texto.1.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.2.breezhaler",
+          "stepImage": "breezhaler2",
+          "stepText": "texto.2.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.3.breezhaler",
+          "stepImage": "breezhaler3",
+          "stepText": "texto.3.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.4.breezhaler",
+          "stepImage": "breezhaler4",
+          "stepText": "texto.4.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.5.breezhaler",
+          "stepImage": "breezhaler5",
+          "stepText": "texto.5.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.6.breezhaler",
+          "stepImage": "breezhaler6",
+          "stepText": "texto.6.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.7.breezhaler",
+          "stepImage": "breezhaler7",
+          "stepText": "texto.7.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.8.breezhaler",
+          "stepImage": "breezhaler8",
+          "stepText": "texto.8.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.9.breezhaler",
+          "stepImage": "breezhaler9",
+          "stepText": "texto.9.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.10.breezhaler",
+          "stepImage": "breezhaler10",
+          "stepText": "texto.10.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.11.breezhaler",
+          "stepImage": "breezhaler11",
+          "stepText": "texto.11.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.12.breezhaler",
+          "stepImage": "breezhaler12",
+          "stepText": "texto.12.breezhaler",
+          "inhalerRef": "breezhalerName"
+        },
+        {
+          "stepTitle": "titulo.1.easyhaler",
+          "stepImage": "easyhaler1",
+          "stepText": "texto.1.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.2.easyhaler",
+          "stepImage": "easyhaler2",
+          "stepText": "texto.2.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.3.easyhaler",
+          "stepImage": "easyhaler3",
+          "stepText": "texto.3.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.4.easyhaler",
+          "stepImage": "easyhaler4",
+          "stepText": "texto.4.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.5.easyhaler",
+          "stepImage": "easyhaler5",
+          "stepText": "texto.5.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.6.easyhaler",
+          "stepImage": "easyhaler6",
+          "stepText": "texto.6.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.7.easyhaler",
+          "stepImage": "easyhaler7",
+          "stepText": "texto.7.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.8.easyhaler",
+          "stepImage": "easyhaler8",
+          "stepText": "texto.8.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.9.easyhaler",
+          "stepImage": "easyhaler9",
+          "stepText": "texto.9.easyhaler",
+          "inhalerRef": "easyhalerName"
+        },
+        {
+          "stepTitle": "titulo.1.pressurecartridge",
+          "stepImage": "pressurecartridge2",
+          "stepText": "texto.1.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.2.pressurecartridge",
+          "stepImage": "pressurecartridge3",
+          "stepText": "texto.2.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.3.pressurecartridge",
+          "stepImage": "pressurecartridge4",
+          "stepText": "texto.3.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.4.pressurecartridge",
+          "stepImage": "pressurecartridge5",
+          "stepText": "texto.4.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.5.pressurecartridge",
+          "stepImage": "pressurecartridge6",
+          "stepText": "texto.5.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.6.pressurecartridge",
+          "stepImage": "pressurecartridge7",
+          "stepText": "texto.6.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.7.pressurecartridge",
+          "stepImage": "pressurecartridge8",
+          "stepText": "texto.7.pressurecartridge",
+          "inhalerRef": "pressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge1",
+          "stepText": "texto.1.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge2",
+          "stepText": "texto.2.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge3",
+          "stepText": "texto.3.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge4",
+          "stepText": "texto.4.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge5",
+          "stepText": "texto.5.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge6",
+          "stepText": "texto.6.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge7",
+          "stepText": "texto.7.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.chamberpressurecartridge",
+          "stepImage": "chamberpressurecartridge8",
+          "stepText": "texto.8.chamberpressurecartridge",
+          "inhalerRef": "chamberpressurecartridgeName"
+        },
+        {
+          "stepTitle": "titulo.1.aerolizer",
+          "stepImage": "aerolizer1",
+          "stepText": "texto.1.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.2.aerolizer",
+          "stepImage": "aerolizer2",
+          "stepText": "texto.2.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.3.aerolizer",
+          "stepImage": "aerolizer3",
+          "stepText": "texto.3.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.4.aerolizer",
+          "stepImage": "aerolizer4",
+          "stepText": "texto.4.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.5.aerolizer",
+          "stepImage": "aerolizer5",
+          "stepText": "texto.5.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.6.aerolizer",
+          "stepImage": "aerolizer6",
+          "stepText": "texto.6.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.7.aerolizer",
+          "stepImage": "aerolizer7",
+          "stepText": "texto.7.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.8.aerolizer",
+          "stepImage": "aerolizer8",
+          "stepText": "texto.8.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.9.aerolizer",
+          "stepImage": "aerolizer9",
+          "stepText": "texto.9.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.10.aerolizer",
+          "stepImage": "aerolizer10",
+          "stepText": "texto.10.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.11.aerolizer",
+          "stepImage": "aerolizer11",
+          "stepText": "texto.11.aerolizer",
+          "inhalerRef": "aerolizerName"
+        },
+        {
+          "stepTitle": "titulo.1.handihaler",
+          "stepImage": "handihaler1",
+          "stepText": "texto.1.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.2.handihaler",
+          "stepImage": "handihaler2",
+          "stepText": "texto.2.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.3.handihaler",
+          "stepImage": "handihaler3",
+          "stepText": "texto.3.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.4.handihaler",
+          "stepImage": "handihaler4",
+          "stepText": "texto.4.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.5.handihaler",
+          "stepImage": "handihaler5",
+          "stepText": "texto.5.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.6.handihaler",
+          "stepImage": "handihaler6",
+          "stepText": "texto.6.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.7.handihaler",
+          "stepImage": "handihaler7",
+          "stepText": "texto.7.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.8.handihaler",
+          "stepImage": "handihaler8",
+          "stepText": "texto.8.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.9.handihaler",
+          "stepImage": "handihaler9",
+          "stepText": "texto.9.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.10.handihaler",
+          "stepImage": "handihaler10",
+          "stepText": "texto.10.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.11.handihaler",
+          "stepImage": "handihaler11",
+          "stepText": "texto.11.handihaler",
+          "inhalerRef": "handihalerName"
+        },
+        {
+          "stepTitle": "titulo.1.nexthaler",
+          "stepImage": "nexthaler1",
+          "stepText": "texto.1.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.2.nexthaler",
+          "stepImage": "nexthaler2",
+          "stepText": "texto.2.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.3.nexthaler",
+          "stepImage": "nexthaler3",
+          "stepText": "texto.3.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.4.nexthaler",
+          "stepImage": "nexthaler4",
+          "stepText": "texto.4.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.5.nexthaler",
+          "stepImage": "nexthaler5",
+          "stepText": "texto.5.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.6.nexthaler",
+          "stepImage": "nexthaler6",
+          "stepText": "texto.6.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.7.nexthaler",
+          "stepImage": "nexthaler7",
+          "stepText": "texto.7.nexthaler",
+          "inhalerRef": "nexthalerName"
+        },
+        {
+          "stepTitle": "titulo.1.twisthaler",
+          "stepImage": "twisthalerremovecap",
+          "stepText": "texto.1.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.2.twisthaler",
+          "stepImage": "exhaleair",
+          "stepText": "texto.2.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.3.twisthaler",
+          "stepImage": "twisthalerinhale",
+          "stepText": "texto.3.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.4.twisthaler",
+          "stepImage": "holdbreath",
+          "stepText": "texto.4.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.5.twisthaler",
+          "stepImage": "rinsemouth",
+          "stepText": "texto.5.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.6.twisthaler",
+          "stepImage": "twisthalerremovecap",
+          "stepText": "texto.6.twisthaler",
+          "inhalerRef": "twisthalerName"
+        },
+        {
+          "stepTitle": "titulo.1.accuhaler",
+          "stepImage": "accuhaler1",
+          "stepText": "texto.1.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.2.accuhaler",
+          "stepImage": "accuhaler2",
+          "stepText": "texto.2.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.3.accuhaler",
+          "stepImage": "accuhaler3",
+          "stepText": "texto.3.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.4.accuhaler",
+          "stepImage": "accuhaler4",
+          "stepText": "texto.4.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.5.accuhaler",
+          "stepImage": "accuhaler5",
+          "stepText": "texto.5.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.6.accuhaler",
+          "stepImage": "accuhaler6",
+          "stepText": "texto.6.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.7.accuhaler",
+          "stepImage": "accuhaler7",
+          "stepText": "texto.7.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.8.accuhaler",
+          "stepImage": "accuhaler8",
+          "stepText": "texto.8.accuhaler",
+          "inhalerRef": "accuhalerName"
+        },
+        {
+          "stepTitle": "titulo.1.novolizer",
+          "stepImage": "novolizer1",
+          "stepText": "texto.1.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.2.novolizer",
+          "stepImage": "novolizer2",
+          "stepText": "texto.2.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.3.novolizer",
+          "stepImage": "novolizer3",
+          "stepText": "texto.3.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.4.novolizer",
+          "stepImage": "novolizer4",
+          "stepText": "texto.4.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.5.novolizer",
+          "stepImage": "novolizer5",
+          "stepText": "texto.5.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.6.novolizer",
+          "stepImage": "novolizer6",
+          "stepText": "texto.6.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.7.novolizer",
+          "stepImage": "novolizer7",
+          "stepText": "texto.7.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.8.novolizer",
+          "stepImage": "novolizer8",
+          "stepText": "texto.8.novolizer",
+          "inhalerRef": "novolizerName"
+        },
+        {
+          "stepTitle": "titulo.1.ellipta",
+          "stepImage": "ellipta1",
+          "stepText": "texto.1.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.2.ellipta",
+          "stepImage": "ellipta2",
+          "stepText": "texto.2.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.3.ellipta",
+          "stepImage": "exhaleair",
+          "stepText": "texto.3.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.4.ellipta",
+          "stepImage": "ellipta4",
+          "stepText": "texto.4.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.5.ellipta",
+          "stepImage": "ellipta5",
+          "stepText": "texto.5.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.6.ellipta",
+          "stepImage": "holdbreath",
+          "stepText": "texto.6.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.7.ellipta",
+          "stepImage": "exhaleair",
+          "stepText": "texto.7.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.8.ellipta",
+          "stepImage": "ellipta8",
+          "stepText": "texto.8.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.9.ellipta",
+          "stepImage": "rinsemouth",
+          "stepText": "texto.9.ellipta",
+          "inhalerRef": "elliptaName"
+        },
+        {
+          "stepTitle": "titulo.1.spiromax",
+          "stepImage": "spiromax1",
+          "stepText": "texto.1.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.2.spiromax",
+          "stepImage": "spiromax2",
+          "stepText": "texto.2.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.3.spiromax",
+          "stepImage": "spiromax3",
+          "stepText": "texto.3.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.4.spiromax",
+          "stepImage": "exhaleair",
+          "stepText": "texto.4.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.5.spiromax",
+          "stepImage": "spiromax5",
+          "stepText": "texto.5.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.6.spiromax",
+          "stepImage": "spiromax6",
+          "stepText": "texto.6.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.7.spiromax",
+          "stepImage": "holdbreath",
+          "stepText": "texto.7.spiromax",
+          "inhalerRef": "spiromaxName"
+        },
+        {
+          "stepTitle": "titulo.8.spiromax",
+          "stepImage": "rinsemouth",
+          "stepText": "texto.8.spiromax",
+          "inhalerRef": "spiromaxName"
+        }
+      ]
+}
+

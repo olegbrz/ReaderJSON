@@ -37,10 +37,11 @@ En la clase JsonReader están disponibles los métodos beginObject(), endObject(
 - [ ] Iterator
 - [ ] Visitante
 - [ ] Decorador
-- [ ] Compuesto
+- [x] Compuesto
 - [ ] Estrategia
 - [ ] Método Plantilla
 - [ ] Fábrica Abstracta
 - [ ] Mediador
 - [ ] Observador
 - [ ] Publicador/Suscriptor
+- [x] Cadena de mando

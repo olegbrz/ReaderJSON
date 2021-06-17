@@ -34,3 +34,7 @@ En la clase JsonReader están disponibles los métodos beginObject(), endObject(
 
 - [x] Compuesto
 - [x] **Cadena de mando**
+
+## UML
+
+![uml](/resources/uml.png)

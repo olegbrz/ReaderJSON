@@ -8,9 +8,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 
 /**
- * Created by jmalvarez on 11/5/16.
+ * Created by olegbrz on 15/6/21.
  * http://developer.android.com/intl/es/training/basics/network-ops/xml.html
  */
 public class DatabaseJSonReader {
@@ -20,13 +21,13 @@ public class DatabaseJSonReader {
   public String parse(String jsonFileName) throws IOException {
 
     InputStream usersIS = new FileInputStream(jsonFileName);
-    JsonReader reader = new JsonReader(new InputStreamReader(usersIS, "UTF-8"));
+    JsonReader reader = new JsonReader(new InputStreamReader(usersIS, StandardCharsets.UTF_8));
 
     ChainOfResponsability cr =
         new ChainOfResponsability(new MedicinesReader(new RescueMedicinePresentationsReader(null)));
 
     reader.beginObject();
-    StringBuffer readData = new StringBuffer();
+    StringBuilder readData = new StringBuilder();
     while (reader.hasNext()) {
       String name = reader.nextName();
       StringBuffer res = cr.handleRead(name, reader);

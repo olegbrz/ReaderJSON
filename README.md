@@ -30,18 +30,7 @@ En la clase JsonReader están disponibles los métodos beginObject(), endObject(
 }
 ```
 
-## Patrones estudiados
+## Patrones solución
 
-- [ ] Builder
-- [ ] Proxy
-- [ ] Iterator
-- [ ] Visitante
-- [ ] Decorador
 - [x] Compuesto
-- [ ] Estrategia
-- [ ] Método Plantilla
-- [ ] Fábrica Abstracta
-- [ ] Mediador
-- [ ] Observador
-- [ ] Publicador/Suscriptor
-- [x] Cadena de mando
+- [x] **Cadena de mando**

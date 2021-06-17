@@ -1,4 +1,10 @@
-# Práctica JSON
+# Práctica: patrón cadena de mando aplicado a lectura de JSON
+  
+*Oleg Brezitskyy*
+
+*Ingeniería del Software Avanzada*
+
+*3º Ingeniería de la Salud*
 
 ## Guión
 
@@ -34,6 +40,34 @@ En la clase JsonReader están disponibles los métodos beginObject(), endObject(
 
 - [x] Compuesto
 - [x] **Cadena de mando**
+
+## Memoria
+
+Para preservar ambas versiones del proyecto, se crearon dos paquetes:
+
+- `initial`: contiene las clases `DatabaseJSonReader` y `GsonDatabaseClient` originales.
+- `solution`: contiene las clases anteriores adaptadas
+    - `readers`: contiene la implementación con el patrón cadena de mando de las clases lectoras de "medicines" y "rescueMedicinePresentations", así como la clase `ChainElement` de la que heredan.
+
+La estructura del código es similar a la original, solo que se separa en diferentes readers, uno para cada key en el diccionario. Los métodos de las clases originales fueron importados a las clases herederas de `ChainElement`.
+
+La clase `ChainElement` contiene el campo `allowedKey`, la cual especifica si ese reader específico es capaz de leer el valor del diccionario propuesto o no. Para comprobar eso, se creó el método `canRead()`. El campo `successor` se refiere al siguiente elemento en la cadena (se proporciona también un setter para este campo).
+
+Toda esa estructura se envuelve en el método `handleRead()`, el cual, dado un `JSONReader` y una `String` que especifica la key del diccionario a leer, puede tener 3 comportamientos diferentes:
+
+1. Si el reader puede leer el valor, se devuelve el `StringBuffer` de la función `read()` del reader correspondiente.
+2. Si el reader no puede leer y hay un sucesor (siguiente elemento en la cadena), le pasa esos valores por la función `hanldeRead()`.
+3. En caso contrario, devuelve null, que se comprueba en la clase cliente, y se ignora.
+
+Para crear una cadena de mando, simplemente se instancia un reader específico y se le pasa un `null` en el constructor, indicando que no tiene sucesor, los elementos siguientes se crean encadenando los readers anteriores como parámetros en sus constructores. Para aplicar la cadena de mando, se usa el último elemento añadido, ya que este sería el primero.
+
+Para demostrar el funcionamiento y abstraer un poco el concepto de cadena, se creó la clase `ChainOfResponsability`, que es una versión simplificada de `ChainElement`, y solo contiene el campo que guarda el primer elemento en la cadena, y la función "iniciadora" de la cadena.
+
+**Cabe mencionar que solamente se han implementado dos readers, los mismos que en la implementación original.**
+
+**La dos clases cliente (`initial` y `solution`) se ejecutaron para comprobar el funcionamiento, y sus salidas fueron comprobados con el `output diff` del IDE IntelliJ, las salidas eran idénticas independientemente del orden de la cadena, lo que indica que la implementación seguramente es correcta.**
+
+Para más comprensión se recomienda ver el diagrama UML a continuación.
 
 ## UML
 

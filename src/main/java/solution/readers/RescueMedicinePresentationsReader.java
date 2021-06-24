@@ -17,24 +17,7 @@ public class RescueMedicinePresentationsReader extends ChainElement {
     this.setAllowedKey(allowedKey);
   }
 
-
-  @Override
-  public StringBuffer read(JsonReader jr) throws IOException {
-    StringBuffer rescueMedicinePresentationData = new StringBuffer();
-    jr.beginArray();
-    while (jr.hasNext()) {
-      jr.beginObject();
-      rescueMedicinePresentationData
-          .append(readRescueMedicinePresentationEntry(jr))
-          .append("\n");
-      jr.endObject();
-    }
-    rescueMedicinePresentationData.append("\n");
-    jr.endArray();
-    return rescueMedicinePresentationData;
-  }
-
-  public String readRescueMedicinePresentationEntry(JsonReader jr) throws IOException {
+  public String readEntry(JsonReader jr) throws IOException {
     String medRef = null;
     String aiRef = null;
     String inhRef = null;

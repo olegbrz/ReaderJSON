@@ -25,7 +25,11 @@ public class DatabaseJSonReader {
     ChainOfResponsability cr =
         new ChainOfResponsability(
             new MedicinesReader(
-                new RescueMedicinePresentationsReader(new PhysiotherapiesReader(new ActiveIngredientsReader(new InhalersReader(null))))));
+                new RescueMedicinePresentationsReader(
+                    new PhysiotherapiesReader(
+                        new ActiveIngredientsReader(
+                            new InhalersReader(
+                                new MedicinePresentationsReader(new PosologiesReader(null))))))));
 
     reader.beginObject();
     StringBuilder readData = new StringBuilder();

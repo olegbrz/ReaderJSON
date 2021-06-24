@@ -14,23 +14,7 @@ public class InhalersReader extends ChainElement{
         this.setAllowedKey(allowedKey);
     }
 
-    @Override
-    public StringBuffer read(JsonReader jr) throws IOException {
-        StringBuffer inhalerData = new StringBuffer();
-        jr.beginArray();
-        while (jr.hasNext()) {
-            jr.beginObject();
-            inhalerData
-                    .append(readInhalerEntry(jr))
-                    .append("\n");
-            jr.endObject();
-        }
-        inhalerData.append("\n");
-        jr.endArray();
-        return inhalerData;
-    }
-
-    public String readInhalerEntry(JsonReader jr) throws IOException {
+    public String readEntry(JsonReader jr) throws IOException {
         String nameTag = null;
         String imageTag = null;
         while (jr.hasNext()) {

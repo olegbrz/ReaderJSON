@@ -14,23 +14,8 @@ public class PhysiotherapiesReader extends ChainElement{
         this.setAllowedKey(allowedKey);
     }
 
-    @Override
-    public StringBuffer read(JsonReader jr) throws IOException {
-        StringBuffer physiotherapiesData = new StringBuffer();
-        jr.beginArray();
-        while (jr.hasNext()) {
-            jr.beginObject();
-            physiotherapiesData
-                    .append(readPhysiotherapiesEntry(jr))
-                    .append("\n");
-            jr.endObject();
-        }
-        physiotherapiesData.append("\n");
-        jr.endArray();
-        return physiotherapiesData;
-    }
 
-    public String readPhysiotherapiesEntry(JsonReader jr) throws IOException {
+    public String readEntry(JsonReader jr) throws IOException {
         String nameTag = null;
         String imageTag = null;
         while (jr.hasNext()) {

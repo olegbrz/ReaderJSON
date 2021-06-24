@@ -13,21 +13,7 @@ public class ActiveIngredientsReader extends ChainElement {
         this.setAllowedKey(allowedKey);
     }
 
-    @Override
-    public StringBuffer read(JsonReader jr) throws IOException {
-        StringBuffer activeIngredientData = new StringBuffer();
-        jr.beginArray();
-        while (jr.hasNext()) {
-            jr.beginObject();
-            activeIngredientData.append(readActiveIngredientsEntry(jr)).append("\n");
-            jr.endObject();
-        }
-        activeIngredientData.append("\n");
-        jr.endArray();
-        return activeIngredientData;
-    }
-
-    public String readActiveIngredientsEntry(JsonReader jr) throws IOException {
+    public String readEntry(JsonReader jr) throws IOException {
         String activeIngredientName = null;
         while (jr.hasNext()) {
             String name = jr.nextName();

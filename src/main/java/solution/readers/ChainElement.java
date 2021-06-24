@@ -21,11 +21,24 @@ public abstract class ChainElement {
     } else {
       jr.skipValue();
       System.err.println("Category " + key + " not processed.");
-      return(null);
+      return (null);
     }
   }
 
-  public abstract StringBuffer read(JsonReader jr) throws IOException;
+  public StringBuffer read(JsonReader jr) throws IOException {
+    StringBuffer data = new StringBuffer();
+    jr.beginArray();
+    while (jr.hasNext()) {
+      jr.beginObject();
+      data.append(readEntry(jr)).append("\n");
+      jr.endObject();
+    }
+    data.append("\n");
+    jr.endArray();
+    return data;
+  }
+
+  public abstract String readEntry(JsonReader jr) throws IOException;
 
   public boolean canRead(String key) {
     return allowedKey.equals(key);

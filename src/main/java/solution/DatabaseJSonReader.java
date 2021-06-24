@@ -29,7 +29,12 @@ public class DatabaseJSonReader {
                     new PhysiotherapiesReader(
                         new ActiveIngredientsReader(
                             new InhalersReader(
-                                new MedicinePresentationsReader(new PosologiesReader(null))))))));
+                                new MedicinePresentationsReader(
+                                        new PosologiesReader(
+                                                new UserManualPhysioStepsReader(
+                                                        new UserManualStepsReader(null)
+                                                )
+                                        ))))))));
 
     reader.beginObject();
     StringBuilder readData = new StringBuilder();

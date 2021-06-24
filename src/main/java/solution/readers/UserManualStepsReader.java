@@ -4,14 +4,14 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public class UserManualStepsReader extends ChainElement{
+public class UserManualStepsReader extends ChainReader {
     protected String allowedKey = "userManualSteps";
     protected String STEPTITLE_FIELD_TAGNAME = "stepTitle";
     protected String STEPIMAGE_FIELD_TAGNAME = "stepImage";
     protected String STEPTEXT_FIELD_TAGNAME = "stepText";
     protected String PHYSIOREF_FIELD_TAGNAME = "inhalerRef"; // Typo in json file
 
-    public UserManualStepsReader(ChainElement successor) {
+    public UserManualStepsReader(ChainReader successor) {
         super(successor);
         this.setAllowedKey(allowedKey);
     }

@@ -1,14 +1,14 @@
 package solution;
 
 import com.google.gson.stream.JsonReader;
-import solution.readers.ChainElement;
+import solution.readers.ChainReader;
 
 import java.io.IOException;
 
 public class ChainOfResponsability {
-  ChainElement ce;
+  ChainReader ce;
 
-  public ChainOfResponsability(ChainElement ce) {
+  public ChainOfResponsability(ChainReader ce) {
     this.ce = ce;
   }
 

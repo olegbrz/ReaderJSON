@@ -1,18 +1,17 @@
 package solution.readers;
 
 import com.google.gson.stream.JsonReader;
-import com.sun.net.httpserver.Filter;
 
 import java.io.IOException;
 
-public class RescueMedicinePresentationsReader extends ChainElement {
+public class RescueMedicinePresentationsReader extends ChainReader {
   protected String allowedKey = "rescueMedicinePresentations";
   protected String MEDREF_FIELD_TAGNAME = "medicineRef";
   protected String ACTINGREF_FIELD_TAGNAME = "activeIngRef";
   protected String INHREF_FIELD_TAGNAME = "inhalerRef";
   protected String DOSE_FIELD_TAGNAME = "dose";
 
-  public RescueMedicinePresentationsReader(ChainElement successor) {
+  public RescueMedicinePresentationsReader(ChainReader successor) {
     super(successor);
     this.setAllowedKey(allowedKey);
   }

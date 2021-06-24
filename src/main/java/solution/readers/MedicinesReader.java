@@ -4,11 +4,11 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public class MedicinesReader extends ChainElement {
-    String allowedKey = "medicines";
-    private static final String NAME_FIELD_TAGNAME = "name";
+public class MedicinesReader extends ChainReader {
+    protected String allowedKey = "medicines";
+    protected String NAME_FIELD_TAGNAME = "name";
 
-    public MedicinesReader(ChainElement successor) {
+    public MedicinesReader(ChainReader successor) {
         super(successor);
         this.setAllowedKey(allowedKey);
     }

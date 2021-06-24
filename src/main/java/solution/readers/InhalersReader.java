@@ -4,12 +4,12 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public class InhalersReader extends ChainElement{
+public class InhalersReader extends ChainReader {
     protected String allowedKey = "inhalers";
     protected String NAME_FIELD_TAGNAME = "name";
     protected String IMAGE_FIELD_TAGNAME = "image";
 
-    public InhalersReader(ChainElement successor) {
+    public InhalersReader(ChainReader successor) {
         super(successor);
         this.setAllowedKey(allowedKey);
     }

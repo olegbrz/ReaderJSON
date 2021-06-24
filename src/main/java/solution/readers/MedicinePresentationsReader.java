@@ -4,7 +4,7 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public class MedicinePresentationsReader extends ChainElement {
+public class MedicinePresentationsReader extends ChainReader {
     protected String allowedKey = "medicinePresentations";
     protected String MEDREF_FIELD_TAGNAME = "medicineRef";
     protected String ACTINGREF_FIELD_TAGNAME = "activeIngRef";
@@ -12,7 +12,7 @@ public class MedicinePresentationsReader extends ChainElement {
     protected String DOSE_FIELD_TAGNAME = "dose";
     protected String POSOLOGYRED_FIELD_TAGNAME = "posologyRef";
 
-    public MedicinePresentationsReader(ChainElement successor) {
+    public MedicinePresentationsReader(ChainReader successor) {
         super(successor);
         this.setAllowedKey(allowedKey);
     }

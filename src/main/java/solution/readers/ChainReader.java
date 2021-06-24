@@ -4,12 +4,12 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public abstract class ChainElement {
+public abstract class ChainReader {
   protected String allowedKey;
-  protected ChainElement successor;
+  protected ChainReader successor;
   protected String FIELD_SEPARATOR = ";";
 
-  public ChainElement(ChainElement successor) {
+  public ChainReader(ChainReader successor) {
     this.successor = successor;
   }
 
@@ -44,7 +44,7 @@ public abstract class ChainElement {
     return allowedKey.equals(key);
   }
 
-  public void setSuccessor(ChainElement successor) {
+  public void setSuccessor(ChainReader successor) {
     this.successor = successor;
   }
 

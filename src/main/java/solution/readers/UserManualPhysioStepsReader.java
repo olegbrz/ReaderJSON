@@ -4,14 +4,14 @@ import com.google.gson.stream.JsonReader;
 
 import java.io.IOException;
 
-public class UserManualPhysioStepsReader extends ChainElement{
+public class UserManualPhysioStepsReader extends ChainReader {
     protected String allowedKey = "userManualPhysioSteps";
     protected String STEPTITLE_FIELD_TAGNAME = "stepTitle";
     protected String STEPIMAGE_FIELD_TAGNAME = "stepImage";
     protected String STEPTEXT_FIELD_TAGNAME = "stepText";
     protected String PHYSIOREF_FIELD_TAGNAME = "physioRef";
 
-    public UserManualPhysioStepsReader(ChainElement successor) {
+    public UserManualPhysioStepsReader(ChainReader successor) {
         super(successor);
         this.setAllowedKey(allowedKey);
     }

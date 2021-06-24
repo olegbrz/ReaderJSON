@@ -2,6 +2,7 @@ package solution;
 
 import com.google.gson.stream.JsonReader;
 import solution.readers.MedicinesReader;
+import solution.readers.PhysiotherapiesReader;
 import solution.readers.RescueMedicinePresentationsReader;
 
 import java.io.FileInputStream;
@@ -24,7 +25,9 @@ public class DatabaseJSonReader {
     JsonReader reader = new JsonReader(new InputStreamReader(usersIS, StandardCharsets.UTF_8));
 
     ChainOfResponsability cr =
-        new ChainOfResponsability(new MedicinesReader(new RescueMedicinePresentationsReader(null)));
+        new ChainOfResponsability(
+            new MedicinesReader(
+                new RescueMedicinePresentationsReader(new PhysiotherapiesReader(null))));
 
     reader.beginObject();
     StringBuilder readData = new StringBuilder();
@@ -32,7 +35,8 @@ public class DatabaseJSonReader {
       String name = reader.nextName();
       StringBuffer res = cr.handleRead(name, reader);
       if (res != null) {
-        readData.append(res).append("\n");}
+        readData.append(res).append("\n");
+      }
     }
 
     reader.endObject();

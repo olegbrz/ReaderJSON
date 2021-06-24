@@ -43,6 +43,8 @@ En la clase JsonReader están disponibles los métodos beginObject(), endObject(
 
 ## Memoria
 
+### Primera versión (17/06/2021) no definitiva
+
 Para preservar ambas versiones del proyecto, se crearon dos paquetes:
 
 - `initial`: contiene las clases `DatabaseJSonReader` y `GsonDatabaseClient` originales.
@@ -69,6 +71,16 @@ Para demostrar el funcionamiento y abstraer un poco el concepto de cadena, se cr
 
 Para más comprensión se recomienda ver el diagrama UML a continuación.
 
-## UML
+#### UML
 
 ![uml](/resources/uml.png)
+
+### Versión definitiva (24/07/2021)
+
+Viendo que mis compañeros implementaron todos los readers de todos los campos, decidí hacer lo mismo. Esto me sirvió para optimizar aún más el código ya que me di cuenta que la función `read()` definida en la clase `ChainReader` era idéntica en cada Reader, lo que me permitió implementarla sólo en la super clase.
+
+Implementé todos los readers que eran bastante similares entre sí. La UML de esta versión final se ve de la siguiente forma:
+
+#### UML definitiva
+
+![uml definitiva](/resources/uml_der.png)

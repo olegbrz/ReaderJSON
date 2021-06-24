@@ -1,9 +1,7 @@
 package solution;
 
 import com.google.gson.stream.JsonReader;
-import solution.readers.MedicinesReader;
-import solution.readers.PhysiotherapiesReader;
-import solution.readers.RescueMedicinePresentationsReader;
+import solution.readers.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -27,7 +25,7 @@ public class DatabaseJSonReader {
     ChainOfResponsability cr =
         new ChainOfResponsability(
             new MedicinesReader(
-                new RescueMedicinePresentationsReader(new PhysiotherapiesReader(null))));
+                new RescueMedicinePresentationsReader(new PhysiotherapiesReader(new ActiveIngredientsReader(new InhalersReader(null))))));
 
     reader.beginObject();
     StringBuilder readData = new StringBuilder();

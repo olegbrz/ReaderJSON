@@ -83,4 +83,4 @@ Implementé todos los readers que eran bastante similares entre sí. La UML de e
 
 #### UML definitiva
 
-![uml definitiva](/resources/uml_der.png)
+![uml definitiva](/resources/uml_def.png)
